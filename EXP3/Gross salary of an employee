@@ -1,0 +1,24 @@
+#Name: Aayan R. Sayyed 
+#UIN: 241S027
+#FE (ECS)
+#Title: To calculate Gross Salary
+
+# Taking input for Basic Salary (BS)
+BS = float(input("Enter the Basic Salary: "))
+
+# Calculating allowances
+DA = 0.70 * BS  # 70% of Basic Salary
+TA = 0.30 * BS  # 30% of Basic Salary
+HRA = 0.10 * BS  # 10% of Basic Salary
+
+# Calculating Gross Salary
+Gross_Salary = BS + DA + TA + HRA
+
+# Displaying the result
+print("\n------ Salary Breakdown ------")
+print(f"Basic Salary (BS): ${BS:.2f}")
+print(f"Dearness Allowance (DA): ${DA:.2f}")
+print(f"Travel Allowance (TA): ${TA:.2f}")
+print(f"House Rent Allowance (HRA): ${HRA:.2f}")
+print(f"Gross Salary: ${Gross_Salary:.2f}")
+
