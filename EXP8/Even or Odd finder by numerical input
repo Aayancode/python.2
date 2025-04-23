@@ -1,0 +1,16 @@
+# Name: Aayan Sayyed
+# DIV: E(ECS)
+# UIN: 241S027
+#Title: Develop a Python program that takes a numerical input and 
+        identifies whether it is even or odd, utilizing conditional statements and 
+        loops.
+
+def indetify_number_type():
+    number = int(input("Enter the number: "))
+
+    if number % 2 == 0:
+        print("Number is even")
+    else:
+        print("Number is odd")
+
+indetify_number_type()
